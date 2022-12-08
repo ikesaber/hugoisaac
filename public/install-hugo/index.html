@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Installing Hugo | My New Hugo Site</title>
+	<link rel="canonical" href="http://example.org/">
+	<link rel='alternate' type='application/rss+xml' title="My New Hugo Site RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="How to install Hugo in Ubuntu: sudo apt install npm &amp;&amp; sudo apt install nodejs &amp;&amp; sudo apt install hugo
+Get a theme: hugo new site new-site cd new-site git clone https://github.com/lukesmithxyz/lugo themes/lugo echo &#34;theme = &#39;lugo&#39;&#34; &gt;&gt; config.toml cp themes/lugo/static/style.css static/ stuff  Makes one RSS feed for the entire site at /index.xml Stylesheet is in /style.css and includes some important stuff for partials. If a post is tagged, links to the tags are placed at the bottom of the post.">
+	<meta name="keywords" content="Personal">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Installing Hugo">Installing Hugo</h1></header>
+<article>
+
+<h1 id="how-to-install-hugo-in-ubuntu">How to install Hugo in Ubuntu:</h1>
+<p><code>sudo apt install npm &amp;&amp; sudo apt install nodejs &amp;&amp; sudo apt install hugo</code></p>
+<h1 id="get-a-theme">Get a theme:</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new site new-site
+cd new-site
+git clone https://github.com/lukesmithxyz/lugo themes/lugo
+echo <span style="color:#e6db74">&#34;theme = &#39;lugo&#39;&#34;</span> &gt;&gt; config.toml
+cp themes/lugo/static/style.css static/
+</code></pre></div><h2 id="stuff">stuff</h2>
+<ul>
+<li>Makes one RSS feed for the entire site at <code>/index.xml</code></li>
+<li>Stylesheet is in <code>/style.css</code> and includes some important stuff for partials.</li>
+<li>If a post is tagged, links to the tags are placed at the bottom of the post.</li>
+<li><code>nextprev.html</code> adds links to the Next and Previous articles to the bottom of a page.</li>
+<li><code>taglist.html</code> links all tags an article is tagged to for related content.</li>
+</ul>
+<h2 id="make-a-new-page">Make a new page</h2>
+<ul>
+<li>make a new page with <code>hugo new content/webpage.md</code></li>
+</ul>
+
+
+</article>
+</main>
+
+<footer>
+	<a href="http://example.org/">http://example.org/</a>
+</footer>
+
+</body>
+</html>

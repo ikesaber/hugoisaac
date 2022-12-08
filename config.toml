@@ -1,0 +1,4 @@
+baseURL = 'https://hugo.isaacdehart.com/'
+languageCode = 'en-us'
+title = 'hugo.isaacdehart.com'
+theme = 'lugo'

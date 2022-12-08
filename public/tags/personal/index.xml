@@ -1,0 +1,53 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>My New Hugo Site</title>
+	<link>http://example.org/tags/personal/</link>
+	<description>Recent content in Personal on My New Hugo Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Thu, 08 Dec 2022 11:39:55 -0800</lastBuildDate>
+    
+        <atom:link href="http://example.org/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Autobiography</title>
+		<link>http://example.org/autobiography/</link>
+		<pubDate>Thu, 08 Dec 2022 11:39:55 -0800</pubDate>
+		
+		<guid>http://example.org/autobiography/</guid>
+		<description>&lt;p&gt;This is an autobiography page&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Installing Hugo</title>
+		<link>http://example.org/install-hugo/</link>
+		<pubDate>Thu, 08 Dec 2022 11:26:56 -0800</pubDate>
+		
+		<guid>http://example.org/install-hugo/</guid>
+		<description>&lt;h1 id=&#34;how-to-install-hugo-in-ubuntu&#34;&gt;How to install Hugo in Ubuntu:&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;sudo apt install npm &amp;amp;&amp;amp; sudo apt install nodejs &amp;amp;&amp;amp; sudo apt install hugo&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;get-a-theme&#34;&gt;Get a theme:&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;hugo new site new-site
+cd new-site
+git clone https://github.com/lukesmithxyz/lugo themes/lugo
+echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;theme = &amp;#39;lugo&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; config.toml
+cp themes/lugo/static/style.css static/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;stuff&#34;&gt;stuff&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Makes one RSS feed for the entire site at &lt;code&gt;/index.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Stylesheet is in &lt;code&gt;/style.css&lt;/code&gt; and includes some important stuff for partials.&lt;/li&gt;
+&lt;li&gt;If a post is tagged, links to the tags are placed at the bottom of the post.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nextprev.html&lt;/code&gt; adds links to the Next and Previous articles to the bottom of a page.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;taglist.html&lt;/code&gt; links all tags an article is tagged to for related content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;make-a-new-page&#34;&gt;Make a new page&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;make a new page with &lt;code&gt;hugo new content/webpage.md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
