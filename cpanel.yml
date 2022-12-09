@@ -2,4 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/hugoisaac/public_html
-        - /bin/cp -r /public/* $DEPLOYPATH
+        - /bin/cp -r /home/hugoisaac/repositories/hugoisaac/public/ $DEPLOYPATH
